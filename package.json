@@ -1,0 +1,39 @@
+{
+  "name": "react-compiler-check",
+  "version": "0.1.0",
+  "description": "Diagnostics tool for React Compiler compatibility",
+  "main": "lib/index.js",
+  "bin": {
+    "react-compiler-check": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "react",
+    "react-compiler",
+    "diagnostics",
+    "eslint"
+  ],
+  "author": "Hammad Hassan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/parser": "^7.27.2",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/traverse": "^7.27.1",
+    "@babel/types": "^7.27.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.18",
+    "eslint": "^9.26.0",
+    "eslint-plugin-react-compiler": "^19.1.0-rc.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
