@@ -1,6 +1,6 @@
 {
   "name": "react-compiler-check",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Diagnostics tool for React Compiler compatibility",
   "main": "lib/index.js",
   "bin": {
@@ -19,6 +19,9 @@
   ],
   "author": "Hammad Hassan",
   "license": "MIT",
+   "engines": {
+    "node": ">=24.0.2"
+  },
    "repository": {
     "type": "git",
     "url": "https://github.com/hmadhsan/react-compiler-check.git"
