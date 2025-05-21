@@ -1,6 +1,6 @@
 {
   "name": "react-compiler-check",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Diagnostics tool for React Compiler compatibility",
   "main": "lib/index.js",
   "bin": {
@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/hmadhsan/react-compiler-check#readme",
   "dependencies": {
-    "@babel/parser": "^7.27.2"
+    "@babel/parser": "^7.27.2",
+    "@babel/traverse": "^7.27.1",
+    "@babel/types": "^7.27.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
-    "@babel/traverse": "^7.27.1",
-    "@babel/types": "^7.27.1",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.18",
     "eslint": "^9.26.0",
